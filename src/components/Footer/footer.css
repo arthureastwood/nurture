@@ -1,0 +1,25 @@
+.footer {
+    font-size: medium;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.instaMag {
+    height: 2px;
+    width: 2px;
+}
+
+.whatsMag {
+    height: 2px;
+    width: 2px;
+}
+
+.year {
+    justify-content: center;
+    font-weight: 500;
+    padding: 1rem 30rem;
+}
+
+.social-icons {
+    padding: 0 30rem;
+}

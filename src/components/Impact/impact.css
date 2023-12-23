@@ -1,0 +1,22 @@
+#impact {
+    font-family: sans-serif;
+}
+
+.impact-para {
+    height: 100vh;
+    width: 100vw;
+    padding: 9rem;
+    font-size: 2rem;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 13rem;
+}
+
+.impact-heading {
+    padding-left: 40rem;
+    padding-bottom: 9rem;
+    padding-top: 8rem;
+}

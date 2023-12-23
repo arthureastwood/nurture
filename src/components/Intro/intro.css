@@ -1,0 +1,37 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.welcomeContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 9rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bgWelcome {
+    position: absolute;
+    top: 0.03rem;
+    z-index: -1;
+    object-fit: cover;
+    right: 0;
+}
+
+.welcome {
+    font-size: 1.7rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.warm {
+    color: yellow;
+}

@@ -1,0 +1,51 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    font-family: sans-serif;
+    background: rgb(30, 30, 30);
+}
+
+.logo {
+    height: 3rem;
+    object-fit: cover;
+    width: 4rem;
+    border-radius: 45px;
+}
+
+.MenuListItem {
+    cursor: pointer;
+    margin: 1rem;
+    color: white;
+}
+
+.MenuButton {
+    background: greenyellow;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.MenuListItem:hover {
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+}
+
+.active {
+    color: greenyellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellowgreen;
+}
