@@ -6,7 +6,6 @@ import Impact from "./components/Impact/impact";
 import Donate from "./components/Donate/donate";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
-import MapComponent from "./components/Map/map";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <Impact />
       <Donate />
       <Contact />
-      <MapComponent />
       <Footer />
     </div>
   );
